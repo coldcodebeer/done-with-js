@@ -31,7 +31,7 @@ const sendRequest = (index) => {
 }
 
 // 5 batches * 3 requests = 15 requests.
-const batches = Array(2).fill(Array(1).fill(sendRequest))
+const batches = Array(5).fill(Array(3).fill(sendRequest))
 
 ;(async function() {
   batches.forEach(async (item, index) => {
