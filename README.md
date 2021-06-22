@@ -1,1 +1,1 @@
-- [requests in batches](./src/batchingRequests.js)
+- [requests in batches](./batchingRequests.js)
