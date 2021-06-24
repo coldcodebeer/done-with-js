@@ -18,7 +18,7 @@ const sendRequest = (index) => {
 
 const multiReqs = Array(10).fill(sendRequest)
 
-const sendRequestSTimerId = setInterval(() => {
+const sendRequestsTimerId = setInterval(() => {
   if (SUBMITING) return
   ; (async function () {
     try {
